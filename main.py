@@ -35,10 +35,10 @@ t.goto(140,175)
 t.pendown()
 
 t.pencolor('white')
-t.right(90)
-t.forward(150)
+t.right(40)
+t.forward(120)
 t.circle(80,180)
-t.forward(150)
+t.forward(120)
 
 t.hideturtle()
 turtle.done()
