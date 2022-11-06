@@ -4,7 +4,7 @@ turtle.Screen().bgcolor('black')
 
 t.penup()
 t.goto(-230,175)
-t.pendown
+t.pendown()
 
 t.pencolor('white')
 t.pensize(15)
@@ -25,6 +25,8 @@ t.begin_fill()
 t.right(130)
 t.forward(133)
 t.circle(50,200)
+t.right(140)
+t.circle(50,200)
 t.forward(133)
 t.end_fill()
 
@@ -33,15 +35,10 @@ t.goto(140,175)
 t.pendown()
 
 t.pencolor('white')
-t.right(40)
-t.forward(120)
-t.circle(60,100)
-t.forward(120)
-
-t.penup()
-t.goto(-150,-150)
-t.pendown()
-t.write('Therese', font=('Arial',50,'bold'))
+t.right(90)
+t.forward(150)
+t.circle(80,180)
+t.forward(150)
 
 t.hideturtle()
 turtle.done()
